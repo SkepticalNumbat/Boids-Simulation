@@ -61,6 +61,7 @@ For boid $i$ at position $\mathbf{p}_i$ with velocity $\mathbf{v}_i$:
 \mathbf{F}_i = w_{\text{sep}}\mathbf{F}_{\text{sep}, i} + w_{\text{align}}\mathbf{F}_{\text{align}, i} + w_{\text{coh}}\mathbf{F}_{\text{coh}, i}
 
 
+
 Collective Decision-Making Model
 The most common commitment mechanism is a threshold. Support for an option accumulates; once it crosses a quorum T, the group commits.
 
@@ -73,5 +74,4 @@ Quorums do four things at once. They prevent premature commitment, forcing adequ
 
 Choosing T is a speed–accuracy tradeoff and nothing else. Low thresholds decide fast and wrong; high thresholds decide slowly and right.
 
-# Boids-Simulation
-Flock simulation using Boids Model 
+
