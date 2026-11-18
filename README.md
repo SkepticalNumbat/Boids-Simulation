@@ -75,6 +75,7 @@ $$
 ### 2. Collective Decision-Making Model.
 
 The most common commitment mechanism in collective systems is a quorum threshold. Support for a given option accumulates among individuals; once it crosses a threshold $T$, the group commits to the action:
+
 $$
 P(commit \mid n) = \begin{cases} 0 & \text{if } n < T \\ f(n) & \text{if } n \ge T \end{cases}
 $$
