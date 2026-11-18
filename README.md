@@ -62,6 +62,7 @@ $$
 $$
 
 **Cohesion**, over neighbors $C_i$ within the cohesion radius:
+
 $$
 \mathbf{F}_{coh, i} = \left( \frac{1}{|C_i|} \sum_{j \in C_i} \mathbf{p}_j \right) - \mathbf{p}_i
 $$
